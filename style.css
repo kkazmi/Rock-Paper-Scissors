@@ -1,0 +1,66 @@
+header{
+    text-align: center;
+    background-color: rgb(2, 2, 68);
+    color: #fff;
+    height: 60px;
+    margin: 0px;
+    font-size: 40px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+        text-transform: capitalize;
+}
+.choices button{
+    width: 100px;
+    height: 100px;
+    font-size: 32px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+}
+button:hover{
+    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.game{
+    text-align: center;
+}
+
+#rock{
+    background-color: #f44336;
+    color: white;
+}
+#paper{
+    background-color: #2196F3;
+    color: white;
+}
+#scissors{
+    background-color: #4CAF50;
+    color: white;
+}
+.result{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    text-transform: capitalize;
+}
+.user-choice, .computer-choice{
+    margin: 20px;
+    font-weight: bold;
+}
+#result-text{
+    font-size: 24px;
+    color: #e4e2e2;
+    background-color: #070f56;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
